@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content
+    section#introsection
+        div Welcome to Harry's dance academy
+        div#slogan EAT SLEEP DANCE REPEATE
+    section#missionsection
+        h3 Our Mission 
+        div.container
+            div.card
+                h4 Dance perfection
+                div.card-box
+                    div.card-img
+                        img(src="../static/img/dance.png", alt="dance.png")
+                    div.card-content
+                        p this is best acedamy in multiverse
+            div.card
+                h4 Dance way you like
+                div.card-box
+                    div.card-img
+                        img(src="../static/img/dance(1).png", alt="dance.png")
+                    div.card-content
+                        p this is best acedamy in multiverse
+            div.card
+                h4 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/img/dance(2).png", alt="dance.png")
+                    div.card-content
+                        p this is best acedamy in multiverse
+    section#sponsorssection
+        h3 Our Sponsors
+        div#sponsors
+            img(src="../static/img/apple.png", alt="sponsors png" class="spimg")
+            img(src="../static/img/microsoft.png.png", alt="sponsors png" class="spimg")
+            img(src="../static/img/skype.png", alt="sponsors png" class="spimg")
+            img(src="../static/img/twitter.png.png", alt="sponsors png" class="spimg")

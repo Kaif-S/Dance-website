@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo img{
+    height: 58px;
+    filter: invert(1);
+}
+#logo{
+    display: flex;
+    margin-right: 21px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+#navbar ul{
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(207 0 0);
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 15px;
+    font-size: 1.4rem;
+    font-family: 'Akshar', sans-serif;
+    transition: color 130ms ease-in 100ms;
+}
+#navbar li a:hover{
+    color:rgb(213, 213, 213);
+}
+#introsection{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Akshar', sans-serif;
+    color: white;
+    flex-direction: column;
+    background: center / cover  no-repeat url(/static/bg.jpg);
+    height: 300px;
+}
+#slogan{
+    font-size: 32px;
+}
+#missionsection{
+    height: 310px;
+}
+#missionsection h3{
+    display: flex;
+    font-family: 'Akshar', sans-serif;
+    font-size: 3.5vmax;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    padding: 14px 27px;
+    padding-top: 0px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 14px 19px 9px 19px;
+    flex-direction: column;
+    height: 183px;
+    width: 240px;
+    border: 2px solid black;
+}
+.card h4{
+    font-size: 27px;
+    margin: auto;
+    font-family: 'Akshar', sans-serif;
+}
+.card-box{
+    
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+#sponsorssection{
+    height: 300px;
+    background-color: #ffdfdf;
+}
+#sponsorssection h3{
+    color:black;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content:center;
+    font-size: 3.5vmax;
+}
+#sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spimg{
+    margin: 15px 29px;
+    height: 150px;
+}
+#footer{
+    height: 45px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+#footer_para{
+    color:white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Akshar', sans-serif;
+}
